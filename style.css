@@ -2,11 +2,55 @@
 
 #header {
     text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto mono', monospace;
+}
+
+body {
+    background-color:#BFBFBF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sliderContainer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#sliderTitle {
+    font-family: 'Roboto mono', monospace;
 }
 
 .buttonContainer {
     text-align: center;
     margin-bottom: 30px
+}
+
+.buttons {
+    font-family: 'Roboto mono', monospace;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow: 2px 2px #888888;
+}
+
+#clear:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+#goCrazy:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+#black:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
 }
 
 #container {
@@ -31,4 +75,11 @@
 
 .footer {
     text-align: center;
+    position: absolute;
+    margin-top: 20px;
+    height: 10%;
+    left: 0;
+    width: 100%;
+    font-family: 'Roboto mono', monospace;
+    background-color: #F2C84B;
 }
