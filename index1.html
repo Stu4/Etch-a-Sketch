@@ -2,14 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>"Etch-a-Sketch</title>
+    <title>Etch-a-Sketch</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="container">
+    <h1 id = "header"> Etch-a-Sketch </h1>
+    
+    <div class = "buttonContainer">
+        <button id="clear" class="buttons"> Clear </button>
+
     </div>
-    <script src="etchasketch.js">
-         
-    </script>
+
+    <div class = "sliderContainer">
+        <div id = "sliderTitle"> Grid Size:
+            <span id = "sliderValue">16</span>
+        </div>
+        <input id="slider" type="range" min="2" value="16" max="20" >
+
+    </div>
+
+    <div id="container">
+        
+    </div>
+
+    <div class = "footer">
+        <p> Ohhh Baby! </p>
+    </div>
+  
 </body>
+
+<script src="etchasketch.js">   </script>
+
 </html>
